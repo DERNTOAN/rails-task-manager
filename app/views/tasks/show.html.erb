@@ -1,0 +1,20 @@
+<div class="task text-center">
+  <h1><%= @task.title %></h1>
+
+  <h4>Details:</h4>
+  <p><%= @task.details %></p>
+
+  <h4>Completed:</h4>
+  <p><%= @task.completed %></p>
+  <div>
+    <%= link_to "All tasks", "/tasks", :class => "btn btn-success" %>
+  </div>
+  <div>
+    <%= link_to "Edit task", edit_path(@task), :class => "btn btn-primary" %>
+  </div>
+
+  <div>
+    <%= link_to "Delete this task", delete_path(@task), method: :delete, :class => "btn btn-danger" %>
+  </div>
+</div>
+

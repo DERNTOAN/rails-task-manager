@@ -1,0 +1,31 @@
+// Place all the styles related to the Tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.update_task_button {
+  background-color: #28a745;
+  border: 0px;
+}
+
+.task h1 {
+  color: #246EB9;
+}
+
+.create_task {
+  background-color: #246EB9;
+}
+
+.details_input {
+  height: 150px;
+  width: 300px;
+  text-align: top;
+}
